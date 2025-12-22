@@ -1,0 +1,22 @@
+<script>
+function unregisterParticipant(participantId) {
+    // Logic to unregister the participant
+    console.log('Unregistered participant with ID:', participantId);
+}
+</script>
+
+<style>
+.delete-icon {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+}
+</style>
+
+<ul class="participants-list">
+    <li>
+        <strong>Participant Name</strong>
+        <span class="delete-icon" onclick="unregisterParticipant('participantId')">🗑️</span>
+    </li>
+    <!-- Repeat for other participants -->
+</ul>
